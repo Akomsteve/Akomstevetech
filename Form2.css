@@ -1,0 +1,66 @@
+body
+{
+    display:cover;
+}
+span
+{
+    color:orange;
+}
+h2
+{
+    color:green;
+    text-align:center;
+}
+
+.container
+{
+    background-color: whitesmoke;
+    margin:5%;
+    padding-left:10%;
+    box-shadow: 2px 2px 5px;
+}
+
+.container button
+{
+    background-color:green;
+    text-align:center;
+    width:93%;
+    padding-top:3%;
+    padding-bottom:3%;
+    color:white;
+}
+
+.container input
+{
+    width:90%;
+    padding:1%;
+    padding-top:3%;
+    padding-bottom:3%;
+    display:block;
+}
+
+.container button:hover
+{
+    background-color:lightblue;
+}
+
+.control
+{
+    display:flex;
+    flex-direction:column;
+}
+
+.control.success input
+{
+    border-color:green;
+}
+
+.control.error input
+{
+    border-color:red;
+}
+
+.control.error
+{
+    color:red;
+}
