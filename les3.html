@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart project</title>
+ <style>
+     button
+     {
+         background-color:skyblue;
+     }
+ </style>
+ 
+</head>
+<body>
+    <button onclick="
+    console.log(`cartQuantity: ${cartQuantity} `)" style="background-color:green; color:white;">Cart Quantity</button>
+    
+    <button onclick="cartQuantity ++
+    console.log(`cartQuantity: ${cartQuantity} ` )"
+    >Add to Cart</button>
+    
+    <button onclick="cartQuantity +=2
+    console.log(`cartQuantity: ${cartQuantity} `)"
+    >+2</button>
+    
+    <button onclick="cartQuantity +=3
+    console.log(`cartQuantity: ${cartQuantity} `)"
+    >+3</button>
+    
+    <button onclick="cartQuantity -=2
+    console.log(`cartQuantity: ${cartQuantity} ` )"
+    >-2</button>
+    
+    <button style="background-color:yellow;"
+    onclick="
+    cartQuantity = 0
+    console.log('Cart Reset')
+    console.log(`cartQuantity : ${cartQuantity}`)">
+         Reset Cart
+    </button>
+    
+    <script>
+        let cartQuantity = 0;
+    </script>
+</body>
+</html>
